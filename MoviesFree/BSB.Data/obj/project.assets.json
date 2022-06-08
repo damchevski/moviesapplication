@@ -5806,11 +5806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AppMovies\\BSB.Data\\MA.Data.csproj",
+      "projectUniqueName": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj",
       "projectName": "MA.Data",
-      "projectPath": "C:\\AppMovies\\BSB.Data\\MA.Data.csproj",
+      "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj",
       "packagesPath": "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\",
-      "outputPath": "C:\\AppMovies\\BSB.Data\\obj\\",
+      "outputPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AngjelcheDamchevski\\AppData\\Roaming\\NuGet\\NuGet.Config",

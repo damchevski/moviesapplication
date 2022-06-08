@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AppMovies\\BSB.Web\\MA.Web.csproj": {}
+    "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\MA.Web.csproj": {}
   },
   "projects": {
-    "C:\\AppMovies\\BSB.Data\\MA.Data.csproj": {
+    "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AppMovies\\BSB.Data\\MA.Data.csproj",
+        "projectUniqueName": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj",
         "projectName": "MA.Data",
-        "projectPath": "C:\\AppMovies\\BSB.Data\\MA.Data.csproj",
+        "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj",
         "packagesPath": "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\",
-        "outputPath": "C:\\AppMovies\\BSB.Data\\obj\\",
+        "outputPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AngjelcheDamchevski\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\AppMovies\\BSB.Repository\\MA.Repository.csproj": {
+    "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AppMovies\\BSB.Repository\\MA.Repository.csproj",
+        "projectUniqueName": "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj",
         "projectName": "MA.Repository",
-        "projectPath": "C:\\AppMovies\\BSB.Repository\\MA.Repository.csproj",
+        "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj",
         "packagesPath": "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\",
-        "outputPath": "C:\\AppMovies\\BSB.Repository\\obj\\",
+        "outputPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AngjelcheDamchevski\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\AppMovies\\BSB.Data\\MA.Data.csproj": {
-                "projectPath": "C:\\AppMovies\\BSB.Data\\MA.Data.csproj"
+              "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj": {
+                "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj"
               }
             }
           }
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\AppMovies\\BSB.Service\\MA.Service.csproj": {
+    "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\MA.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AppMovies\\BSB.Service\\MA.Service.csproj",
+        "projectUniqueName": "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\MA.Service.csproj",
         "projectName": "MA.Service",
-        "projectPath": "C:\\AppMovies\\BSB.Service\\MA.Service.csproj",
+        "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\MA.Service.csproj",
         "packagesPath": "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\",
-        "outputPath": "C:\\AppMovies\\BSB.Service\\obj\\",
+        "outputPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AngjelcheDamchevski\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,11 +150,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\AppMovies\\BSB.Data\\MA.Data.csproj": {
-                "projectPath": "C:\\AppMovies\\BSB.Data\\MA.Data.csproj"
+              "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj": {
+                "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj"
               },
-              "C:\\AppMovies\\BSB.Repository\\MA.Repository.csproj": {
-                "projectPath": "C:\\AppMovies\\BSB.Repository\\MA.Repository.csproj"
+              "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj": {
+                "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj"
               }
             }
           }
@@ -197,14 +197,14 @@
         }
       }
     },
-    "C:\\AppMovies\\BSB.Web\\MA.Web.csproj": {
+    "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\MA.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AppMovies\\BSB.Web\\MA.Web.csproj",
+        "projectUniqueName": "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\MA.Web.csproj",
         "projectName": "MA.Web",
-        "projectPath": "C:\\AppMovies\\BSB.Web\\MA.Web.csproj",
+        "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\MA.Web.csproj",
         "packagesPath": "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\",
-        "outputPath": "C:\\AppMovies\\BSB.Web\\obj\\",
+        "outputPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AngjelcheDamchevski\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,14 +221,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\AppMovies\\BSB.Data\\MA.Data.csproj": {
-                "projectPath": "C:\\AppMovies\\BSB.Data\\MA.Data.csproj"
+              "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj": {
+                "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj"
               },
-              "C:\\AppMovies\\BSB.Repository\\MA.Repository.csproj": {
-                "projectPath": "C:\\AppMovies\\BSB.Repository\\MA.Repository.csproj"
+              "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj": {
+                "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj"
               },
-              "C:\\AppMovies\\BSB.Service\\MA.Service.csproj": {
-                "projectPath": "C:\\AppMovies\\BSB.Service\\MA.Service.csproj"
+              "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\MA.Service.csproj": {
+                "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\MA.Service.csproj"
               }
             }
           }

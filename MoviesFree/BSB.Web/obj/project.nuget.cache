@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I6cbLMwH36gTOWo5N9vVLS7EUrmBuhGBpHVhQiU7kNS20aSu62lrhjqoWZTMQ6i76CK+P6WtWFMq4/FjQe/ADQ==",
+  "dgSpecHash": "mwA1aBjTSLl+MZfRlzdAbLRhVIeAlFw8RthcxtnqJAJpfZiU1b7QA+FZvpv2jwKCUw3uFLbygq9ql+5DdM5eng==",
   "success": true,
-  "projectFilePath": "C:\\AppMovies\\BSB.Web\\MA.Web.csproj",
+  "projectFilePath": "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\MA.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\gembox.document\\33.0.1249\\gembox.document.33.0.1249.nupkg.sha512",
     "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.16\\microsoft.aspnetcore.cryptography.internal.3.1.16.nupkg.sha512",

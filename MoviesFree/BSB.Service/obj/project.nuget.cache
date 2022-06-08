@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uHQAALub7+HWxGOqprxXg86bJB8uRKYUygr7VIShOCOVWJS5qHXn6EAUZAfGQ3eW2pqjz7RKLEVXtan07vBURA==",
+  "dgSpecHash": "5zn7uVnphRehcv/9r55Lx3zemVCcC1gnIULKjTwXdOEFe7nw4F2tbkd4+vo8qzL12G0SrpYvThcSLFCkpdjnvQ==",
   "success": true,
-  "projectFilePath": "C:\\AppMovies\\BSB.Service\\MA.Service.csproj",
+  "projectFilePath": "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\MA.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.12\\microsoft.aspnetcore.cryptography.internal.3.1.12.nupkg.sha512",
     "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.12\\microsoft.aspnetcore.cryptography.keyderivation.3.1.12.nupkg.sha512",
