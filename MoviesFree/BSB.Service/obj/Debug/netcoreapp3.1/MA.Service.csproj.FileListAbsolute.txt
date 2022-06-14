@@ -13,3 +13,17 @@ C:\Projects\moviesapplication\MoviesAPP\BSB.Service\obj\Debug\netcoreapp3.1\MA.S
 C:\Projects\moviesapplication\MoviesAPP\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.csproj.CopyComplete
 C:\Projects\moviesapplication\MoviesAPP\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.dll
 C:\Projects\moviesapplication\MoviesAPP\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.pdb
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\bin\Debug\netcoreapp3.1\MA.Service.deps.json
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\bin\Debug\netcoreapp3.1\MA.Service.dll
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\bin\Debug\netcoreapp3.1\MA.Service.pdb
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\bin\Debug\netcoreapp3.1\MA.Data.dll
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\bin\Debug\netcoreapp3.1\MA.Repository.dll
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\bin\Debug\netcoreapp3.1\MA.Data.pdb
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\bin\Debug\netcoreapp3.1\MA.Repository.pdb
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.AssemblyInfo.cs
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.csproj.CopyComplete
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.dll
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Service\obj\Debug\netcoreapp3.1\MA.Service.pdb

@@ -9291,19 +9291,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\MA.Web.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Web\\MA.Web.csproj",
       "projectName": "MA.Web",
-      "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\MA.Web.csproj",
-      "packagesPath": "C:\\Users\\AngjelcheDamchevski\\.nuget\\packages\\",
-      "outputPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Web\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Web\\MA.Web.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AngjelcheDamchevski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9317,14 +9317,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj": {
-              "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Data\\MA.Data.csproj"
+            "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Data\\MA.Data.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Data\\MA.Data.csproj"
             },
-            "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj": {
-              "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Repository\\MA.Repository.csproj"
+            "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Repository\\MA.Repository.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Repository\\MA.Repository.csproj"
             },
-            "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\MA.Service.csproj": {
-              "projectPath": "C:\\freemoviesapp\\MoviesFree\\BSB.Service\\MA.Service.csproj"
+            "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Service\\MA.Service.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\moviesapplication\\MoviesFree\\BSB.Service\\MA.Service.csproj"
             }
           }
         }
@@ -9388,7 +9388,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

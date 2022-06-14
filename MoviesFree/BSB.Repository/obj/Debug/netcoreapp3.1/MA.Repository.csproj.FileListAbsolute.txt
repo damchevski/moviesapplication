@@ -11,3 +11,15 @@ C:\Projects\moviesapplication\MoviesAPP\BSB.Repository\obj\Debug\netcoreapp3.1\M
 C:\Projects\moviesapplication\MoviesAPP\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.csproj.CopyComplete
 C:\Projects\moviesapplication\MoviesAPP\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.dll
 C:\Projects\moviesapplication\MoviesAPP\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.pdb
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\bin\Debug\netcoreapp3.1\MA.Repository.deps.json
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\bin\Debug\netcoreapp3.1\MA.Repository.dll
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\bin\Debug\netcoreapp3.1\MA.Repository.pdb
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\bin\Debug\netcoreapp3.1\MA.Data.dll
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\bin\Debug\netcoreapp3.1\MA.Data.pdb
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.AssemblyInfo.cs
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.csproj.CopyComplete
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.dll
+C:\Users\DELL\Desktop\moviesapplication\MoviesFree\BSB.Repository\obj\Debug\netcoreapp3.1\MA.Repository.pdb

@@ -1,14 +1,22 @@
 ﻿@{
-    ViewData["Title"] = "Book E-Shop";
+    ViewData["Title"] = "E-Cinema";
 }
 
-<div class="text-center mt-5">
-    <h1 class="display-4" style="font-weight: bold">Welcome To Book E-Shop & Blog</h1>
-    <p style="font-style: italic; font-size: 19px">
-        Here you can find all kind of books and make orders for smallest prices !
-    </p>
-</div>
 
-<div class="text-center">
-    <img src="https://i.imgur.com/HRwmg0C.png" />
-</div>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+</head>
+<body>
+    <div className="img">
+        <img src="https://cdn.theculturetrip.com/wp-content/uploads/2016/03/3078493320_aa0a7ec1bd_b.jpg" style="height:815px; width:1920px; margin-left:-405px; margin-top:-25px; object-fit:cover;" />
+        <div className="welcome-text" style="position: fixed; text-align-last:center; font-family:'Roboto', sans-serif; background-color:transparent;
+z-index:100; top:37%; left:42%; display:block; height:150px">
+            <h1 className="title" style="font-size:35px"><b>Welcome to our website!</b></h1>
+            <div className="text" style="font-size:26px; margin-bottom:30px">Catch films before everyone</div>
+            <div className="button">
+                <button type="button" style="background-color: #D44A4B; color:white; border:none; min-width:190px; border-radius:20px; width:auto" onclick="location.href='@Url.Action("Index","Movies")'">LETS EXPLORE</button>
+            </div>
+        </div>
+    </div>
+
+</body>

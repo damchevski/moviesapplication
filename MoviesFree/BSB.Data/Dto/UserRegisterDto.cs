@@ -20,7 +20,7 @@ namespace BSB.Data.Dto
         public string FirstName { get; set; }
         [Required(ErrorMessage = "LastName is required")]
         public string LastName { get; set; }
-        [Required(ErrorMessage = "PhoneNumber is required")]
+       
         public string PhoneNumber { get; set; }
     }
 }
