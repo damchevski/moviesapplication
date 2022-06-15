@@ -3,18 +3,14 @@
 @{
     ViewData["Title"] = "Edit";
 }
-
 <style>
-    body {
-        min-height: 100vh;
-        background: linear-gradient(rgba(247, 245, 236,0.9), rgba(247, 245, 236, 0.9)), url("/images/background.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
+body { min-height: 100vh; background: linear-gradient(rgba(247, 245, 236,0.9), rgba(247, 245, 236, 0.9)), url("~/wwwroot/Images/background_edit.png"); background-size: 100% 100%; background-repeat: no-repeat; }
+
     .cus-select {
         background-color: #ECAE8C;
         color: white;
     }
+
     .bgbg {
         background-color: #6A856C;
     }
@@ -70,23 +66,23 @@
 
         </div>
         <div class="form-group col-md-2">
-                <select asp-for="Genre" class="form-control cus-select">
-                    <option>Comedy</option>
-                    <option>Action</option>
-                    <option>Horor</option>
-                    <option>Drama</option>
-                    <option>Fantasy</option>
-                    <option>Mystery</option>
-                    <option>Romance</option>
-                    <option>Thriller</option>
-                </select>
+            <select asp-for="Genre" class="form-control cus-select">
+                <option>Comedy</option>
+                <option>Action</option>
+                <option>Horor</option>
+                <option>Drama</option>
+                <option>Fantasy</option>
+                <option>Mystery</option>
+                <option>Romance</option>
+                <option>Thriller</option>
+            </select>
             <span asp-validation-for="Genre" class="text-danger"></span>
         </div>
     </div>
     <div class="form-group d-flex justify-content-center">
         <input type="submit" value="Save" class="btn btn-danger px-5 rounded-pill" />
     </div>
-    
+
 </form>
 <div>
     <a class="btn btn-outline-secondary" asp-action="Index">Back</a>

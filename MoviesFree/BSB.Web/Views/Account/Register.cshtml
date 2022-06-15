@@ -6,7 +6,8 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="~/css/style_login.css">
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -32,7 +33,7 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div>
-                        @Html.TextBoxFor(m => m.FirstName, new { placeholder = "Enter your Fist Name", @class = "formicka" })
+                        @Html.TextBoxFor(m => m.FirstName, new { placeholder = "Enter your First Name", @class = "formicka" })
                         @Html.ValidationMessageFor(m => m.FirstName)
                     </div>
                 </div>
@@ -63,7 +64,7 @@
                         @Html.ValidationMessageFor(m => m.ConfirmPassword)
                     </div>
                 </div>
-                <a asp-action="Login" asp-controller="account">&nbsp; &nbsp; &nbsp; Do you have an account? Login</a>
+                <a asp-action="Login" asp-controller="account" style="margin-left:130px">&nbsp; &nbsp; &nbsp; Do you have an account? Login</a>
                 <br /><br />
                 <button type="submit" class="login" style="background-color: #181818; color:white; border:none; min-width:190px; border-radius:20px; width:auto">Register</button>
             </form>
