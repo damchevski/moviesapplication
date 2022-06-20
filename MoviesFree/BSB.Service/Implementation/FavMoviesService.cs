@@ -33,7 +33,7 @@ namespace BSB.Service.Implementation
 
                 var useruserFavMovies = loggedInUser.UserFavouriteMovies;
 
-                var itemToDelete = useruserFavMovies.MovieInUserFavourites.Where(z => z.MovieId.Equals(id)).FirstOrDefault();
+                var itemToDelete = useruserFavMovies.MovieInUserFavourites.Where(z => z.FavMoviesId.Equals(id)).FirstOrDefault();
 
                 useruserFavMovies.MovieInUserFavourites.Remove(itemToDelete);
 

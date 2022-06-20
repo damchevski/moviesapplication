@@ -1,6 +1,7 @@
 ﻿@using Microsoft.Extensions.Options
 @model BSB.Data.Dto.FavouritesDto
 
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -9,38 +10,32 @@
 <div class="container">
 
     <div class="row m-4">
-        <table class="table">
-            <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Movie Name</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (Model.Movies.Count == 0)
-                {
-                    <tr>
-                        <td colspan="5">No fav movies</td>
-                    </tr>
-                }
-                else
-                {
-                    @for (int i = 0; i < Model.Movies.Count; i++)
-                    {
-                        var item = Model.Movies[i];
+        @if (Model.Movies.Count == 0)
+        {
+        <div>
+            <p class="display-2 text-center">You have no favourite movies.</p>
+            <a class="btn btn-primary btn-lg" style="background-color: #D44A4B; border-color: #D44A4B " href="@Url.Action("Index","Movies")" role="button">Add favourite movies</a>
+        </div>
+        }
+        else
+        {
+            @foreach (var item in Model.Movies)
+            {
 
-                        <tr>
-                            <th scope="row">@(i + 1)</th>
-                            <td>@item.Movie.Name</td>
-                            <td>$@item.Movie.Director</td>
-                            <td><a asp-controller="FavMovies" asp-action="DeleteFromFavMovies" asp-route-id="@item.MovieId" class="btn btn-danger">Delete From Favourites</a></td>
-                        </tr>
-                    }
-                }
-            </tbody>
 
-        </table>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="@item.Movie.Image" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Movie.Name</h5>
+                        <p class="card-body">Genre: @item.Movie.Genre</p>
+                        <a asp-controller="Movies" asp-action="Details" asp-route-id="@item.Id" class="btn btn-danger">Details</a>
+                        <a asp-controller="FavMovies" asp-action="DeleteFromFavMovies" asp-route-id="@item.FavMoviesId" class="btn btn-danger">Remove From Favourites</a>
+                    </div>
+                </div>
+
+            }
+        }
+        
     </div>
 
 </div>
