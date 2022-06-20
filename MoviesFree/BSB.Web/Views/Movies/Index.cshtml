@@ -17,12 +17,12 @@
             <div class="container">
                 @if (SignInManager.IsSignedIn(User))
                 {
-                    <a class="btn btn-primary" style="display: inline-block" asp-action="GroupMovies">Group Movies into Genres</a>
+                    <a class="btn btn-primary" style="display: inline-block; border-radius:20px" asp-action="GroupMovies">Group Movies into Genres</a>
                 }
 
                 @if (User.IsInRole("Admin"))
                 {
-                    <a class="btn btn-primary" style="display: inline-block" asp-action="Create">Create Movie</a>
+                    <a class="btn btn-primary" style="display: inline-block; border-radius:20px" asp-action="Create">Create Movie</a>
                 }
                 <br />
             </div>
@@ -38,7 +38,7 @@
                                    type="text" name="SearchString" />
                         </div>
                         <div style="display: inline-block" class="ml-2">
-                            <input class="btn btn-outline-primary"
+                            <input class="btn btn-outline-primary" style="border-radius:20px"
                                    type="submit" value="Filter" />
                         </div>
                         <br />
@@ -48,7 +48,7 @@
             </div>
 
             <div class="container text-center">
-                <a class="btn btn-primary" style="display: inline-block" asp-action="Index">All Movies</a>
+                <a class="btn btn-primary" style="display: inline-block; border-radius:20px" asp-action="Index">All Movies</a>
               
             </div>
         </div>
@@ -68,7 +68,7 @@
                         @if (SignInManager.IsSignedIn(User))
                         {
                             <p class="card-text">
-                                <a class="btn btn-outline-primary" asp-action="AddToFavourites"
+                                <a class="btn btn-outline-primary"  style="border-radius:20px" asp-action="AddToFavourites"
                                    asp-controller="Movies"
                                    asp-route-id="@item.Id">Add To Favourites</a>
                             </p>
@@ -77,9 +77,9 @@
                         @if (User.IsInRole("Admin"))
                         {
                             <p class="card-text">
-                                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                <a class="btn btn-primary" style="border-radius:20px" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                <a class="btn btn-primary" style="border-radius:20px" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                <a class="btn btn-danger" style="border-radius:20px" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                             </p>
                         }
 

@@ -16,7 +16,6 @@
         <form asp-action="AddMovieToFavourites" method="post">
             <input type="hidden" asp-for="MovieId" />
             <div class="form-group">
-                <img class="" asp-src="SelectedMovie.Image" alt="Card image cap">
                 <label asp-for="SelectedMovie.Name"></label>
                 <input disabled asp-for="SelectedMovie.Name" class="form-control" />
             </div>
