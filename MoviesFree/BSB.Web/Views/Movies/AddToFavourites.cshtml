@@ -6,7 +6,7 @@
 }
 
 
-<h1 style="text-align: center">Add Selected Movie to User Favourites ?</h1>
+<p class="display-4" style="text-align: center">Add Selected Movie To Your Favourites?</p>
 
 
 <hr />
@@ -16,12 +16,13 @@
         <form asp-action="AddMovieToFavourites" method="post">
             <input type="hidden" asp-for="MovieId" />
             <div class="form-group">
+                <img class="" asp-src="SelectedMovie.Image" alt="Card image cap">
                 <label asp-for="SelectedMovie.Name"></label>
                 <input disabled asp-for="SelectedMovie.Name" class="form-control" />
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-info" />
+                <input type="submit" value="Save" class="btn btn-danger" style="border-radius:30px" />
             </div>
         </form>
     </div>
