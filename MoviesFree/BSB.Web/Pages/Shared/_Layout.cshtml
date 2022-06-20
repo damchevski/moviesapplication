@@ -17,9 +17,9 @@
 
 </head>
 <body>
-    <header>
+    <header style="z-index: 1; position: relative;">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3"  style="background:#181818; color:white">
-            <div class="container" style="margin-left:100px">
+            <div class="container">
 
                 <a class="navbar-brand"
                    asp-area=""
@@ -30,7 +30,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" style="margin-right:-560px">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" >
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item" style="font-size: 18px; color:white">
@@ -47,8 +47,8 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container" >
+        <main role="main" class="pb-3" >
             @RenderBody()
         </main>
     </div>

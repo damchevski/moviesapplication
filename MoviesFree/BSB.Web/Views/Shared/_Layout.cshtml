@@ -25,10 +25,10 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="        background: #181818; color:white
+    <header style="z-index: 1; position: relative;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background: #181818; color:white
 ">
-            <div class="container" style="margin-left:100px">
+            <div class="container">
 
                 <a class="navbar-brand"
                    asp-area=""
@@ -39,7 +39,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" style="margin-right:-560px">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
 
@@ -52,9 +52,13 @@
                                 <a class="nav-link text-white" asp-controller="FavMovies" asp-action="GetFavMovies" title="FavMovies">Favourite Movies</a>
                             </li>
                         }
+                        <li class="nav-item" style="font-size: 18px; color: white">
+                            <a class="nav-link text-white" asp-action="GroupMovies">Categories</a>
+                        </li>
                     </ul>
                 </div>
             </div>
+
         </nav>
     </header>
     <div class="container">
@@ -73,6 +77,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @RenderSection("Scripts", required: false)
 </body>
 </html>

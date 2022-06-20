@@ -3,46 +3,60 @@
 @{
     ViewData["Title"] = "Details";
 }
+<style>
+body { min-height: 100vh; background: linear-gradient(rgba(247, 245, 236,0.9), rgba(247, 245, 236, 0.9)), url("/images/background.png"); background-size: 100% 100%; background-repeat: no-repeat; }
+
+    .cus-select {
+        background-color: #ECAE8C;
+        color: white;
+    }
+
+    .bgbg {
+        background-color: #6A856C;
+    }
+</style>
 
 <h1>Details for Movie @Model.Name</h1>
 
 <div>
     <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class="col-sm-10">
-            <img width="140" height="80" src="@Model.Image" />
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Director)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Director)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Genre)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Genre)
-        </dd>
+    <div class="row mb-5 px-4">
+        <div class="col col-auto mr-5">
+            <img width="260" height="300" src="@Model.Image" />
+        </div>
+        <div class="col bgbg p-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" class="bi bi-camera-video" viewBox="0 0 16 16">
+                <path stroke="white" fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
+            </svg>
+        </div>
+    </div>
 
-    </dl>
+    <div class="row mb-3">
+        <div class="col-md-6 text-secondary font-weight-bold">
+            <div class="btn col-sm-2" style="background-color: #ECAE8C; color: white; border: 1px; margin-bottom: 10px">@Html.DisplayFor(model => model.Genre)</div> 
+            <div class="form-group row" style="align-items: center;">
+                <label class="col-sm-2 col-md-4 col-form-label">Movie Name</label>
+                <div class="col-sm-10 col-md-8">
+                    @Html.DisplayFor(model => model.Name)
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-md-4 col-form-label">Description</label>
+                <div class="col-sm-10 col-md-8">
+                    @Html.DisplayFor(model => model.Description)
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-md-4 col-form-label">Director</label>
+                <div class="col-sm-10 col-md-8">
+                    @Html.DisplayFor(model => model.Director)
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </div>
-<div>
-    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-        <a class="btn btn-outline-primary" asp-action="Index">Back to List</a>
+ <div class="form-group d-flex justify-content-center">
+        <a class="btn btn-danger px-5 rounded-pill" asp-action="Index">Back</a>
     </div>
