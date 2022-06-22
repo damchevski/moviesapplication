@@ -9,9 +9,14 @@
 *@
 @{
  <style>
-    body {
-      font-family: "Lato", sans-serif;
-    }
+     body {
+         min-height: 100vh;
+         background: linear-gradient(rgba(247, 245, 236,0.9), rgba(247, 245, 236, 0.9)), url("/images/background.png");
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         font-family: "Lato", sans-serif;
+     }
+
 
     .sidenav {
       height: 100%;
@@ -54,7 +59,7 @@
 
                 <div style="display: inline-block" id="Genre" name="Genre">
                     @foreach (var opt in Model.Genres) {
-                        <a  asp-action="GroupMovies" value="@opt">@opt</a>
+                        <a  href="/Movies/GroupMovies?Genre=@opt" value="@opt">@opt</a>
                     }
                 </div>
 
